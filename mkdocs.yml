@@ -16,7 +16,13 @@ edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
-  - User Guide: guide.md
+  - User Guide: 
+    - guide.md
+    - assembly-instructions.md
+    - electronics-wiring.md
+    - first-setup.md
+    - programming.md
+    - troubleshooting.md
   - Developpers: dev.md
 
 theme:

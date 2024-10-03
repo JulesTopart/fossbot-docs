@@ -1,37 +1,31 @@
-# User Guide
+# FOSSBot User Guide
 
-This section will guide you through the steps of assembling, configuring, and using your FOSSBot.
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY2zctXKi4FLEy45pG79Cug45TQuVXzbstA&s){align=left}
+
+Welcome to the FOSSBot User Guide! This guide will help you with everything you need to build, set up, and program your FOSSBot. Whether you are assembling your robot for the first time or troubleshooting an issue, this guide has got you covered. 
+
+Below, you will find links to each section of the guide based on the task you need help with. Click on any section to get detailed step-by-step instructions.
+
+## First Setup
+If your Fossbot is already assembled, this section will guide you through the first setup process, to setup the WiFi and connect to the robot programming platform
+[Read First Setup Instructions](./first-setup.md)
+
+## Simulator setup
+Learn how to install the Fossbot application to start programming without the physical robot. This will guide you through the install of the Coppelia simulator and the fossbot app.
+[Read Assembly Instructions](./simulator.md)
 
 ## Assembly Instructions
+Learn how to 3D print and assemble your FOSSBot robot. This section covers everything from printing the plastic parts to securing the motors and electronics inside the robot’s chassis.  
+[Read Assembly Instructions](./assembly-instructions.md)
 
-### Hardware Setup
+## Electronics Wiring
+Need help connecting the electronics? This section walks you through the process of wiring the Raspberry Pi, sensors, motors, and LEDs to ensure everything is correctly set up.  
+[Read Electronics Wiring Guide](./electronics-wiring.md)
 
-1. **3D Printing the Parts**: Download the 3D files [here](#) and print them using PETG filament.
-2. **Assembling the Electronics**:
-   - Attach the **Raspberry Pi Zero** to the main chassis.
-   - Connect the **wheel motors**, **gyroscope**, and **accelerometer**.
-   - Secure the **LEGO-compatible top cover** and other custom attachments.
+## Programming
+Ready to start controlling your robot? Learn how to program the FOSSBot using the no-coding mode, block-based coding (Blockly), or Python. We’ll also cover how to test your programs using the simulator.  
+[Read Programming Guide](./programming.md)
 
-### Software Setup
-
-1. **Install Raspbian OS** on the Raspberry Pi Zero.
-2. **Install FOSSBot Software**:
-   - Clone the repository: `git clone https://github.com/FOSSBot/FOSSBot.git`
-   - Follow the setup instructions in the repo to install necessary dependencies.
-
-### First Run
-
-1. **Power up the FOSSBot** by connecting a power source.
-2. **Connect to FOSSBot**: Use the web interface or SSH to access the robot.
-3. **Calibrate the Sensors**: Run the calibration scripts to ensure accurate sensor readings.
-
-## Controlling the FOSSBot
-
-- **No-coding Mode**: Use the web interface to control basic movements and tasks.
-- **Blockly Mode**: Create programs by dragging and dropping blocks in the [Blockly Editor](#).
-- **Python Mode**: Use the [Monaco Editor](#) for more advanced control using Python.
-
-### Troubleshooting
-
-- **Motor issues**: Ensure proper wiring and connection to the Raspberry Pi.
-- **Sensor calibration**: Rerun the calibration scripts if sensor readings are inaccurate.
+## Troubleshooting
+Running into issues? This section provides solutions to common problems such as motor calibration, sensor alignment, or software bugs.  
+[Read Troubleshooting Guide](./troubleshooting.md)

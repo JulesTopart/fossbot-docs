@@ -4,8 +4,6 @@ Welcome, developers! This section is for those interested in contributing to FOS
 
 ## Getting Started
 
-1. **Clone the Repository**:
-2. 
 ```bash
 git clone https://github.com/FOSSBot/FOSSBot.git
 ```
