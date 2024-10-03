@@ -8,9 +8,9 @@ site_description: Documentation website about Fossbot
 site_author: Jules Topart
 copyright: Copyright 2024 - S.T.E.P.S project
 
-site_url: https://julestopart.github.io/fossbot-docs/
-repo_url: https://github.com/JulesTopart/fossbot-docs
-repo_name: fossbot
+site_url: https://JulesTopart.github.io/fossbot-docs/
+repo_url: https://github.com/JulesTopart/fossbot-docs/
+repo_name: fossbot-docs
 
 edit_uri: edit/main/docs/
 
