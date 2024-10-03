@@ -103,6 +103,7 @@ With lists, you can:
 The **Movement** category is all about controlling FOSSBot’s motors. These blocks allow you to make the robot move forward, backward, turn, or stop.
 
 You’ll find blocks for:
+
 - Moving a specific distance (e.g., move forward for 10 cm).
 - Turning right or left (90 degrees or continuously).
 - Stopping the robot at any point in your program.
@@ -112,6 +113,7 @@ You’ll find blocks for:
 ### Interaction
 
 The **Interaction** category helps you control the robot’s non-movement features, like:
+
 - **Playing sounds** through the robot’s speaker.
 - **Changing the LED color**.
 - **Waiting** for a set amount of time (useful for adding delays in your program).
@@ -217,6 +219,7 @@ The **Movement** category is where you’ll find all the blocks that control FOS
 This block allows you to move FOSSBot forward for a specific distance. You can set the distance by replacing `<x>` with any number (in centimeters).
 
 For example:
+
 - If you set it to 10, the robot will move forward exactly 10 cm and then stop.
 
 This block is great when you need precise movement control.
@@ -292,6 +295,7 @@ For example, you might play a sound when FOSSBot completes a task or detects an 
 FOSSBot has LEDs that can change colors based on your instructions. The **Set LED Color** block lets you select a color for the LED lights, allowing you to create visual feedback for different actions.
 
 For example:
+
 - You can set the LED to turn **red** when the robot stops.
 - Or make it **green** when the robot is moving forward.
 
@@ -300,11 +304,13 @@ For example:
 The **Wait** block is used to introduce a delay in your program. You can set it to wait for a specific number of seconds before continuing to the next instruction. This is particularly useful when you need to pause the robot’s actions temporarily.
 
 For example:
+
 - You could make FOSSBot wait 2 seconds after moving forward before turning.
 
 ### Timer Functions
 
 The timer functions allow you to measure how much time has passed during a task. There are three main blocks related to timers:
+
 - **Begin Timer**: Starts the timer.
 - **Stop Timer**: Stops the timer.
 - **Get Timer**: Returns the amount of time that has passed since the timer started.
@@ -408,6 +414,7 @@ The **Logic and Control Blocks** let you take FOSSBot’s programming to the nex
 The **If** statement is one of the most important blocks in Blockly. It allows FOSSBot to make decisions based on certain conditions. Think of it like asking the robot a question: *"If this happens, do this; otherwise, do something else."*
 
 For example:
+
 - If FOSSBot detects an obstacle with its distance sensor, you can tell it to turn left.
 - If there’s no obstacle, it can keep moving forward.
 
@@ -418,6 +425,7 @@ This is super useful for making FOSSBot responsive to its environment.
 The **Loops** category helps you automate repetitive tasks. Instead of programming the robot to perform the same action multiple times, you can use a loop to repeat the action automatically.
 
 Here are the key loop blocks:
+
 - **Repeat**: Perform an action a set number of times. For example, move forward 10 times.
 - **While**: Keep performing an action while a condition is true. For example, keep moving forward while there’s no obstacle.
 
@@ -426,6 +434,7 @@ Loops save time and make your program cleaner and easier to understand.
 ### Boolean Logic
 
 **Boolean logic** is the fancy term for working with **true/false** values. In Blockly, you can use these true/false blocks to help FOSSBot decide what to do. For instance:
+
 - **True**: You can use this value to indicate that a condition is met (like "obstacle detected").
 - **False**: Use this when a condition is not met (like "no obstacle").
 
