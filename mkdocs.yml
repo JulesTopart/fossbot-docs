@@ -1,0 +1,125 @@
+
+# Replace the text below to customize your site
+site_name: "Fossbot User Guide"
+docs_dir: 'docs/'
+site_dir: 'generated/'
+
+site_description: Documentation website about Fossbot
+site_author: Jules Topart
+copyright: Copyright 2024 - S.T.E.P.S project
+
+site_url: https://JulesTopart.github.io/fossbot-docs
+repo_url: https://github.com/eellak/fossbot
+repo_name: fossbot
+
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - User Guide: guide.md
+  - Developpers: dev.md
+
+theme:
+  language: fr
+  custom_dir: './overrides/'
+  name: material
+  palette:
+    - scheme: unilasalle
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Poppins
+    code: Ubuntu Mono
+  logo : images/logo.png
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - search.suggest 
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+
+extra:
+  social:
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/JulesTopart
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jules-topart/
+  consent:
+    title: Cookie consent
+  analytics:
+    provider: google
+    property: G-6XLP4M1QJ3
+
+plugins:
+  - search
+  # - bibtex:
+  #     bib_file: "library.bib"
+  #     csl_file: "library.csl"
+  #     cite_inline: true
+  #     unescape_for_arithmatex: true
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - macros
+  - pseudocode
+
+extra_javascript:
+  - theme/p5.min.js
+  - theme/p5.fillGradient.js
+  - theme/config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/function-plot/dist/function-plot.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjs/1.5.2/math.min.js
+  - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js
+  
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/pseudo-code.css
+  - https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css
+
+markdown_extensions:
+- toc:
+    title: Table of Contents
+    toc_depth: 3
+- meta
+- extra
+- smarty
+- def_list
+- sane_lists
+- footnotes
+- admonition
+- attr_list
+- pymdownx.keys
+- md_in_html
+- codehilite:
+    guess_lang: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+    clickable_checkbox: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.details
+- pymdownx.tabbed
+- pymdownx.critic
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.snippets:
+    auto_append:
+      - includes/glossary.md
+- pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:pymdownx.superfences.fence_code_format

@@ -1,0 +1,8 @@
+# Documentation static site generator
+mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-material
+mkdocs-bibtex
+mkdocs-add-number-plugin
+mkdocs-macros-plugin
+mkdocs-pseudocode
