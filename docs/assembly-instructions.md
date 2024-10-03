@@ -1,3 +1,6 @@
 # Assembly
+This page is work in progress but a PDF is already available :
 
-![](https://storage.needpix.com/rsynced_images/work-98936_1280.png)
+[Download PDF](../files/assembly.pdf){.md-button}
+
+![](https://storage.needpix.com/rsynced_images/work-98936_1280.png){.img-small}

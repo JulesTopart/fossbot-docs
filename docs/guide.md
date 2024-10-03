@@ -10,6 +10,10 @@ Below, you will find links to each section of the guide based on the task you ne
 If your Fossbot is already assembled, this section will guide you through the first setup process, to setup the WiFi and connect to the robot programming platform
 [Read First Setup Instructions](./first-setup.md)
 
+## Editor access
+Learn how to access and use the fossbot program editor
+[Read Assembly Instructions](./editor.md)
+
 ## Simulator setup
 Learn how to install the Fossbot application to start programming without the physical robot. This will guide you through the install of the Coppelia simulator and the fossbot app.
 [Read Assembly Instructions](./simulator.md)

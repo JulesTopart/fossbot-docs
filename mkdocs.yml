@@ -19,6 +19,7 @@ nav:
   - User Guide: 
     - guide.md
     - first-setup.md
+    - editor.md
     - simulator.md
     - assembly-instructions.md
     - electronics-wiring.md
