@@ -28,21 +28,24 @@ To start programming your FOSSBot, you’ll need to access the Blockly editor. I
 
 ---
 
-Here’s the next part of the programming guide, broken into sections and subsections as requested:
-
----
-
 ## 2. **Understanding the Blockly Interface**
 
 Now that you’re in the Blockly editor, let’s get familiar with the different parts of the interface. This will help you quickly find the blocks you need and start building programs.
 
 ---
+![](./images/programming/toolbox.jpg){align=left .img-small}
+
+<br>
+<br>
 
 ### Block Toolbox
 
 On the left side of the screen, you’ll see the **Block Toolbox**. This is where all the action happens! The toolbox contains categories of blocks that you can use to control FOSSBot. Think of it like your toolkit for building programs — each block is a command or instruction for the robot.
 
 Let’s go through the key categories of blocks that you’ll be using.
+
+<br>
+<br>
 
 ---
 
@@ -129,6 +132,8 @@ For example, you can:
 - Access the **gyroscope** to measure the robot’s orientation.
 
 With these blocks, you can make the robot respond to its environment, like stopping when it detects something in its way.
+
+---
 
 ### Programming Workspace
 
